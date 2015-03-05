@@ -73,5 +73,7 @@ function getProxies(index){
 }
 
 function callback(){
-	console.log(httpProxies)
+	for (var ip in httpProxies){
+		console.log(ip + ":" + httpProxies[ip])
+	}
 }
