@@ -61,7 +61,7 @@ function getProxies(index){
 				}
 			}
 
-			console.log('collected ' + count + ' http proxies from page ' + index)
+			console.warn('collected ' + count + ' http proxies from page ' + index)
 
 			getProxies(index+1)
 		}
